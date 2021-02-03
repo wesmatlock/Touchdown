@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		6268B66D25CA546100FF4615 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268B66C25CA546100FF4615 /* NavigationBarView.swift */; };
 		6268B67025CA55D200FF4615 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268B66F25CA55D200FF4615 /* LogoView.swift */; };
+		6268B67325CAD4B400FF4615 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268B67225CAD4B400FF4615 /* PlayerModel.swift */; };
+		6268B67625CAD4F900FF4615 /* CodableBundelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268B67525CAD4F900FF4615 /* CodableBundelExtension.swift */; };
+		6268B67925CAD6E100FF4615 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268B67825CAD6E100FF4615 /* FeaturedItemView.swift */; };
+		6268B67C25CAD7AF00FF4615 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6268B67B25CAD7AF00FF4615 /* FeaturedTabView.swift */; };
 		626BE3B725CA4CB3004FAD9A /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BE3B625CA4CB3004FAD9A /* TouchdownApp.swift */; };
 		626BE3B925CA4CB3004FAD9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626BE3B825CA4CB3004FAD9A /* ContentView.swift */; };
 		626BE3BB25CA4CB4004FAD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626BE3BA25CA4CB4004FAD9A /* Assets.xcassets */; };
@@ -24,6 +28,10 @@
 /* Begin PBXFileReference section */
 		6268B66C25CA546100FF4615 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		6268B66F25CA55D200FF4615 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		6268B67225CAD4B400FF4615 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		6268B67525CAD4F900FF4615 /* CodableBundelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundelExtension.swift; sourceTree = "<group>"; };
+		6268B67825CAD6E100FF4615 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		6268B67B25CAD7AF00FF4615 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		626BE3B325CA4CB3004FAD9A /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626BE3B625CA4CB3004FAD9A /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		626BE3B825CA4CB3004FAD9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +132,8 @@
 				626BE3DE25CA5050004FAD9A /* FooterView.swift */,
 				6268B66C25CA546100FF4615 /* NavigationBarView.swift */,
 				6268B66F25CA55D200FF4615 /* LogoView.swift */,
+				6268B67825CAD6E100FF4615 /* FeaturedItemView.swift */,
+				6268B67B25CAD7AF00FF4615 /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -138,6 +148,7 @@
 		626BE3D725CA4EE8004FAD9A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6268B67225CAD4B400FF4615 /* PlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +156,7 @@
 		626BE3D825CA4EF7004FAD9A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				6268B67525CAD4F900FF4615 /* CodableBundelExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -230,12 +242,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6268B67625CAD4F900FF4615 /* CodableBundelExtension.swift in Sources */,
 				626BE3B925CA4CB3004FAD9A /* ContentView.swift in Sources */,
 				6268B67025CA55D200FF4615 /* LogoView.swift in Sources */,
 				626BE3DF25CA5050004FAD9A /* FooterView.swift in Sources */,
+				6268B67925CAD6E100FF4615 /* FeaturedItemView.swift in Sources */,
 				626BE3B725CA4CB3004FAD9A /* TouchdownApp.swift in Sources */,
 				626BE3DB25CA4F24004FAD9A /* Constant.swift in Sources */,
 				6268B66D25CA546100FF4615 /* NavigationBarView.swift in Sources */,
+				6268B67C25CAD7AF00FF4615 /* FeaturedTabView.swift in Sources */,
+				6268B67325CAD4B400FF4615 /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
